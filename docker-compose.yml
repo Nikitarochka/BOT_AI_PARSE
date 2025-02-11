@@ -1,0 +1,7 @@
+services:
+  gigachat_bot:
+    build: .
+    container_name: gigachat_bot_container
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
